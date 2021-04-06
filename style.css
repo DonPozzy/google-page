@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#topdiv{
+    display: flex;
+    float: right;
+    
+}
+#subdiv{
+    display: flex;
+padding: 5px;
+position: relative;
+right:10px;
+}
+.links{
+color: black;
+text-decoration:none;
+
+}
+#dotted{
+position: relative;
+right: 7px;
+
+}
+#subdiv a{
+    padding:10px;
+}
+#subdiv a:hover{
+text-decoration: underline;
+}
+#midsection{
+    text-align: center;
+}
+#text {
+    width: 48.7em;
+  height:3.7em ;
+  border-radius: 2em;
+  border-color: lightgrey;
+  outline: none;
+  margin-top: -3px;
+}
+#text:hover{
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    
+}
+#mid2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    padding: 10px 10px 10px ;
+}
+#mid2 div:hover {
+    border:1px solid #eee;
+    box-shadow: 1px 1px 1px 0.3px #eee;
+}
+
+#mid2 div {
+    margin: 5px;
+    padding: 13px;
+    background-color:#f8f9fa;
+    border-radius: 5px;
+}
+#mid3 {
+    font-size: 0.9em;
+}
+#mid3 a {
+    text-decoration: none;
+padding-left:5px ;
+}
+#mid3 a:hover{
+    text-decoration: underline;
+}
+#footer {
+    margin-top: 12.4em;
+    margin-bottom: 0;
+    background-color: #eee;
+    opacity: 0.7;
+}
+#nig {
+    padding: 16px;
+}
+#footer a {
+    text-decoration: none;
+    color: black;
+padding: 20px;
+}
+#subfoot {
+    display: flex;
+    justify-content:space-between ;
+    padding: 20px;
+}
+#subfoot a:hover {
+text-decoration: underline;
+}
+#foot2 {
+    position: relative;
+}
+@media only screen and (min-width:1000px) {
+    #text {
+        width: 48.7em;
+    }
+}
+@media only screen and (max-width:800px) {
+    #text {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:600px) {
+    #text {
+        width: 92%;}
+ }
+ @media screen and (max-width:1100px){
+     footer{
+         margin-top: -90px ;
+     }
+    #subfoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #foot2{
+        order:-1;
+        position: relative;
+        bottom: 10px;
+        text-align: center;
+    }
+    #foot1{
+        position: relative;
+        top: px;
+        text-align: center;
+    }
+    #foot3{
+        position: relative;
+        top: 9px;
+        text-align: center;
+    }
+    #foot1, #foot2, #foot3 {
+        padding: 10px;
+    }
+ }
